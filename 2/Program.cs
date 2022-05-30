@@ -16,6 +16,5 @@ Console.Write("b2 = ");
 double b2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("k2 = ");
 double k2 = Convert.ToDouble(Console.ReadLine());
-y = k1 * x + b1;
-y = k2 * x + b2;
-//осталось понять все остальное
+double result = (b2 - b1)/(k1 - k2);
+Console.Write($"Точка пересечения этих прямых: ({result};{result})");
